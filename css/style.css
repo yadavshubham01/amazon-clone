@@ -1,0 +1,128 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+.hero_area {
+  -webkit-box-direction: normal;
+    
+}
+
+.sub_page .hero_area {
+  min-height: auto;
+}
+
+.header_section {
+  background-color: #ffffff;
+}
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #272727;
+  text-transform: uppercase;
+}
+a, a:hover , a:hover{
+  text-decoration: none;
+}
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+  padding: 10px 30px;
+  margin: 10px 15px;
+  color: #272727;
+  text-align: center;
+  text-transform: uppercase;
+}
+.slider_section {
+  -webkit-box-flex: 1;
+  
+  flex: 1;
+  
+  
+  display: flex;
+  -webkit-box-align: center;
+  
+  align-items: center;
+  position: relative;
+  background-color: #f9fafa;
+}
+.long_section{
+  margin-left: 45px;
+  margin-right: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.slider_section #customCarousel {
+  width: 100%;
+  z-index: 3;
+}
+.slider_section .detail-box {
+  color: #000000;
+}
+.slider_section .detail-box p {
+  margin: 25px 0;
+}
+.slider_section .detail-box .btn-box {
+  display: -webkit-box;
+  display: flex;
+  margin: 0 -5px;
+}
+.slider_section .carousel-indicators li {
+  background-color: #6bb7be;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  opacity: 1;
+}
+.slider_section .carousel-indicators li.active {
+  width: 17px;
+  height: 17px;
+  background-color: #f89646;
+}
+slider_section .carousel-indicators li {
+  border-radius: 100%;
+  opacity: 1;
+}
+.slider_section .carousel-indicators li {
+  background-color: #6bb7be;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  opacity: 1;
+}
+.slider_section .detail-box .btn-box .btn1 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f89646;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #f89646;
+  -webkit-transition:all .2s;
+  transition: all .2s;
+}
+.slider_section .detail-box .btn-box .btn2 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #6bb7be;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #6bb7be;
+  -webkit-transition:all .2s;
+  transition: all .2s;
+}
+.slider_section .detail-box .btn-box a {
+  margin: 5px;
+  text-align: center;
+  width: 165px;
+}
+.slider_section .img-box img{
+  width: 100%;
+}
+.slider_section .row {
+  -webkit-box-align: center;
+  align-items: center;
+}
+.slider_section .detail-box h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
